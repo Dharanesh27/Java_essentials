@@ -17,7 +17,7 @@ class PrimeNum{
             }
             
         }
-        if(isPrime == true){
+        if(isPrime){
             System.out.println(n + " is a prime number");
         }
         else{
