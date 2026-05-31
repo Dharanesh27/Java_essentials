@@ -5,7 +5,7 @@ class SumOfDigits{
         System.out.print("Enter the number: ");
         int num = sc.nextInt();
         int count = 0;
-        int store = 0;
+        int store ;
         while(num > 0){
             store = num%10;
             count +=store;
